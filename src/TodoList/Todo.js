@@ -72,7 +72,7 @@ function Todo() {
   };
   const removeItem = (id, DName) => {
     setlist(list.filter((item) => item.id !== id));
-    showAlert(true, `you delete ${DName} value`, "error");
+    showAlert(true, `you deleted ${DName} value`, "error");
   };
   const editItem = (id) => {
     const newItem = list.find((item) => item.id === id);
